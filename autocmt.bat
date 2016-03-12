@@ -5,7 +5,7 @@
 
 @set repo=ife
 
-@set branch=dev
+@set branch=footer
 
 @git checkout %branch%
 @git pull %repo% %branch%
