@@ -79,10 +79,12 @@ nav .search-box input {
 }
 
 .header-content {
-  margin-left: 30%;
-  width: 40%;
-  min-width: 600px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 120px;
+  width: 80%;
   color: #fff;
+  text-align: center;
 }
 
 .header-content .title {
@@ -110,7 +112,6 @@ nav .search-box input {
 }
 
 .header-content .start {
-  margin-left: 180px;
   margin-top: 100px;
   width: 120px;
   height: 30px;
