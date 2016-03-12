@@ -1,10 +1,11 @@
 :: execute this bat script in dest repo dir
-@set repo=master
+@set repo=origin
 @set branch=dev
-@set /p comments=enter coments that make sense for this commit:
 
 git checkout %branch%
 git add -A
+
+@set /p comments=enter coments that make sense for this commit:
 git commit -m "%comments%"
 git push %repo% %branch%
 
