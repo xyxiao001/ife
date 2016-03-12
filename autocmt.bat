@@ -1,12 +1,13 @@
-:: execute this bat script in dest repo dir
-@set repo=origin
+:: execute this bat script in dest remote git repo dir
+@set repo=ife
 @set branch=dev
 
-git checkout %branch%
-git add -A
+@git checkout %branch%
+@git add -A
 
 @set /p comments=enter coments that make sense for this commit:
-git commit -m "%comments%"
-git push %repo% %branch%
+@git commit -m "%comments%"
+@git pull
+@git push %repo% %branch%
 
 @pause
