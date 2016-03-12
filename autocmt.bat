@@ -11,7 +11,7 @@
 @git pull %repo% %branch%
 @git add -A
 
-@set /p comments=Enter coments that make sense for this commit op : 
+@set /p comments=Enter comments that make sense for this commit op : 
 @git commit -m "%comments%"
 @git push %repo% %branch%
 
